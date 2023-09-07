@@ -26,12 +26,3 @@ for i in range(0, len(os.listdir("test_images/"))):
             cv2.rectangle(img, bbox[0], bbox[2], (0,255,0), 5)
             cv2.putText(img, text, bbox[0], cv2.FONT_HERSHEY_COMPLEX, 0.65, (255,0,0), 2)
             cv2.imwrite(path_, img)
-        
-    
-    
-    
-    
-    
-    
-    
-    
